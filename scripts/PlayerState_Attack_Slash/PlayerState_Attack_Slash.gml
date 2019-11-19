@@ -1,14 +1,4 @@
-///stops player movement 
-image_speed = 1;
-walksp = 6;
-hsp = 0;
-vsp = 0;
 
-if image_xscale = 1
-instance_create_layer(x, y, "Instances", obj_bosshitbox);
-
-if image_xscale = -1
-instance_create_layer(x-70, y, "Instances", obj_bosshitbox);
 
 //start of attack
 if (sprite_index != spr_CyberLynx_Slash)
@@ -42,13 +32,9 @@ if (hits > 0)
 ds_list_destroy(hitByAttackNow);
 mask_index = spr_CyberLynx_Idle;
 
-//if (Animation_End()) this is robust but unnecessary
-//if ev_animation_end I cant figure out how this works or doesnt? the documentation sucks.
-///the sprite for attacking has 6 frames and since the index starts at 0, five should be the final frame 
-// and thus the trigger to end this script and state
+
 if image_index > 5
 {
 	sprite_index = spr_CyberLynx_Idle;
-	instance_destroy(obj_bosshitbox);
 	state = PLAYERSTATE.FREE;
 }
