@@ -1,1 +1,0 @@
-audio_play_sound(snd_boss_music, 1, true);

@@ -151,14 +151,6 @@
             }
         },
         {
-            "Key": "3eddebd1-1553-4973-b000-3b9b3307d688",
-            "Value": {
-                "id": "09d8a774-4dc4-46f1-8eaf-6be57fd1ff1c",
-                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3facc88f-ddbf-4e3e-8def-adb895b6530e",
             "Value": {
                 "id": "df0fe7da-dffa-4713-9be8-e03f1a7694d4",
@@ -180,22 +172,6 @@
                 "id": "81c11504-85ec-420d-b9fa-a9473b712648",
                 "resourcePath": "objects\\obj_CyberLynx\\obj_CyberLynx.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "446975ea-03ef-4922-81f4-2cc8d1f1f19d",
-            "Value": {
-                "id": "99cc7bc8-2205-41a3-a6c7-d26e92994a7d",
-                "resourcePath": "sprites\\spr_drone_here\\spr_drone_here.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "46f4eda3-ff4b-484e-b297-d7d790262d7c",
-            "Value": {
-                "id": "2da9012d-9301-48ea-8e92-f54ec8fbc1c6",
-                "resourcePath": "sprites\\spr_GameOver\\spr_GameOver.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,14 +215,6 @@
             }
         },
         {
-            "Key": "5b7f3837-3298-4865-aa29-742f0e3ee2da",
-            "Value": {
-                "id": "a31c2ae4-260e-4992-8d8f-a5b5e8fa9371",
-                "resourcePath": "sprites\\spr_superlife\\spr_superlife.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5c0cdbcb-7cf4-420d-8e68-af93dd786005",
             "Value": {
                 "id": "01c41eb7-1ca0-49a0-b928-846d7519c6b1",
@@ -276,14 +244,6 @@
                 "id": "f7025e18-0edb-4124-a5a4-c762e7c952d4",
                 "resourcePath": "views\\65cb359f-e8df-474e-a442-e2904708c752.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "65f599c7-940a-4c94-bf3b-2f5fd5266aab",
-            "Value": {
-                "id": "a7cf9c6b-037d-40a4-a5a1-7337a2f40569",
-                "resourcePath": "sprites\\spr_win\\spr_win.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -339,30 +299,6 @@
             "Value": {
                 "id": "65a0d6e4-ac8f-4fe8-ba6d-d275be9877eb",
                 "resourcePath": "sprites\\spr_shocker_tile\\spr_shocker_tile.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8131e138-b926-4786-98e5-99adf0a1ecf5",
-            "Value": {
-                "id": "ae7c3b3f-5f6a-4ad4-818e-eca1dfe11049",
-                "resourcePath": "sprites\\spr_Squire_Taunt\\spr_Squire_Taunt.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "85199266-b18a-4418-a0fc-57f6245a7a64",
-            "Value": {
-                "id": "0a613546-908d-4641-8940-919fed58c81f",
-                "resourcePath": "sprites\\spr_life\\spr_life.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "85297231-fe0a-4112-8507-128df47fec17",
-            "Value": {
-                "id": "94b418ed-82e2-42b5-8c00-249370296bee",
-                "resourcePath": "sprites\\spr_nextroom\\spr_nextroom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -468,14 +404,6 @@
                 "id": "b1366073-61ea-4dfb-bb05-123a342bd92d",
                 "resourcePath": "sprites\\spr_CyberLynx_Dash\\spr_CyberLynx_Dash.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b754d954-4889-4441-9e5c-b8623ff5c284",
-            "Value": {
-                "id": "80937cba-1aee-4fe1-b092-5022eaf86ed9",
-                "resourcePath": "rooms\\rm_test\\rm_test.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
