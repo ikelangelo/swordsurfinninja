@@ -4,7 +4,7 @@ alarm[0] = -1;
 alarm[1] = -1;
 
 ///knockback
-motion_set(0, knockback*obj_CyberLynx.image_xscale);
+motion_set(0, knockback*obj_roboGhost.image_xscale);
 
 ///slows knockback so that it will end eventually
 knockback = lerp(knockback, 0, 0.1);
