@@ -2,7 +2,34 @@
 
 var move = move_right - move_left;
 	
-hsp = move * walksp;
+///hsp = move * walksp;
+
+
+
+
+if(move_left != 0 || move_right != 0)
+{
+	if(hsp != walksp * move)
+	{
+		hsp += (accel*move);
+	}
+
+}
+else
+{
+	if(hsp < 0)
+	{
+		hsp += decel;	
+	}
+	
+		else if (hsp > 0)
+	{
+		hsp -= decel;	
+	}
+	
+}
+
+
 
 
 
