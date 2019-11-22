@@ -10,16 +10,16 @@ if (hsp != 0)
 {
 	
 	image_xscale = sign(hsp);
-	///sprite_index = spr_CyberLynx_Move;
+	sprite_index = spr_roboGhostRun;
 } 
 
-else if duck = true 
+else if hsp = 0
 {
-	hsp = 0;
-	///sprite_index = spr_CyberLynx_Duck;
+	
+	sprite_index = spr_roboGhostIdle;
 
 }
-///else sprite_index = spr_CyberLynx_Idle;
+
 
 
 /////////calc vertical movement with gravity & creating terinal velocity
@@ -58,7 +58,7 @@ y += vsp;
 
 ///dash cooldown is here because otherwise theres an exploit to keep slashing and dashing forward infinitely
 
-dashcooldown += -1;
+///dashcooldown += -1;
 
 
 //jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)

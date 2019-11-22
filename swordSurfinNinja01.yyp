@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "55e060b1-d96c-41cb-8830-b111cbafccd9",
-            "Value": {
-                "id": "72c10272-aefd-45aa-a906-91188deddb30",
-                "resourcePath": "sprites\\spr_roboGhost\\spr_roboGhost.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5800872b-ab9e-43f3-8dc1-39c799e1136d",
             "Value": {
                 "id": "1456a1db-ec8b-4c2e-8fbe-d52b3bd0f7e0",
@@ -263,6 +255,14 @@
             }
         },
         {
+            "Key": "8237c2e6-9975-44e2-81e1-fd3350985ddb",
+            "Value": {
+                "id": "3666ddf9-773b-4127-a709-fd5140939ab5",
+                "resourcePath": "sprites\\spr_roboGhostRun\\spr_roboGhostRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e112979-728b-404e-91af-1fa4458dcf82",
             "Value": {
                 "id": "d9bbdfeb-387d-4746-bdda-59cfd03ef86b",
@@ -332,6 +332,14 @@
                 "id": "9f9a9290-632f-4d64-b4d7-4345ced07396",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c225bf32-1278-4bd3-881a-533088f4e91a",
+            "Value": {
+                "id": "c7ca4f0a-06b1-4667-a992-3412816bd755",
+                "resourcePath": "sprites\\spr_roboGhostIdle\\spr_roboGhostIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -420,14 +428,6 @@
                 "id": "04e6f4de-bf19-4237-bddb-d34cd01f9273",
                 "resourcePath": "views\\e46a5b5f-7ef6-4ed0-bab4-a6a2f79881fd.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ee75ad07-11f1-4f8e-a049-6f460b9e6e02",
-            "Value": {
-                "id": "3aa0c7ff-f437-4357-b123-bfe882d1615f",
-                "resourcePath": "sprites\\spr_roboGhostcopy\\spr_roboGhostcopy.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
