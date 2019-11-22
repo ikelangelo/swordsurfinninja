@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0342a21e-6edc-49da-8275-23f646a4249d",
+            "Value": {
+                "id": "9aac7cf5-e30c-458a-a439-f21650dcdf68",
+                "resourcePath": "sprites\\spr_roboGhostSlashHB1\\spr_roboGhostSlashHB1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05a550b7-0c39-4020-80e8-2878c8ac271c",
             "Value": {
                 "id": "c38740e8-b4c0-47fb-beb7-e488b5fcc361",
@@ -420,6 +428,14 @@
                 "id": "4981a150-45c2-4d1f-b8df-56262458a0bd",
                 "resourcePath": "scripts\\BossState_Phase3\\BossState_Phase3.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d93dda08-db53-4b83-9d9e-d2189f3643f0",
+            "Value": {
+                "id": "65f7a90d-adcb-42ea-a157-207c947f9439",
+                "resourcePath": "sprites\\spr_roboGhostSlash1\\spr_roboGhostSlash1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

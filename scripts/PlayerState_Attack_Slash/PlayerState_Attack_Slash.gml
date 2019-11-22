@@ -1,15 +1,15 @@
 
 
 //start of attack
-if (sprite_index != spr_CyberLynx_Slash)
+if (sprite_index != spr_roboGhostSlash1)
 {
-	sprite_index = spr_CyberLynx_Slash;
+	sprite_index = spr_roboGhostSlash1;
 	image_index = 0;
 	ds_list_clear(hitByAttack);
 }
 
 ///use attack hitbox & check for hits
-mask_index = spr_CyberLynx_SlashHitBox;
+mask_index = spr_roboGhostSlashHB1;
 var hitByAttackNow = ds_list_create();
 var hits = instance_place_list(x, y, obj_enemy, hitByAttackNow, false);
 if (hits > 0)
@@ -30,11 +30,11 @@ if (hits > 0)
 	}
 }
 ds_list_destroy(hitByAttackNow);
-mask_index = spr_CyberLynx_Idle;
+mask_index = spr_roboGhostIdle;
 
 
-if image_index > 5
+if image_index > 10
 {
-	sprite_index = spr_CyberLynx_Idle;
+	sprite_index = spr_roboGhostIdle;
 	state = PLAYERSTATE.FREE;
 }
