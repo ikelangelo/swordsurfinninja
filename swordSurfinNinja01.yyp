@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1859c07a-38ae-40c9-95c0-8039d5641275",
+            "Value": {
+                "id": "5d5a02de-dd49-40bb-9977-b3ea0f182f0d",
+                "resourcePath": "sprites\\spr_roboGhostJump\\spr_roboGhostJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2060769e-e0a7-45cc-b05e-4286940ce733",
             "Value": {
                 "id": "d2ba956f-20a1-44cb-a36d-b01ecd7acedd",

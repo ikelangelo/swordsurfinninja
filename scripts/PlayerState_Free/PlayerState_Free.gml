@@ -31,8 +31,6 @@ else
 
 
 
-
-
 if (hsp != 0) 
 {
 	
@@ -55,7 +53,7 @@ vsp += grv;
 
 if vsp >= MAX_VSP vsp = MAX_VSP;
 
-///if !place_meeting(x, y+vsp, obj_block) sprite_index = spr_CyberLynx_Jump;
+if !place_meeting(x, y+vsp, obj_block) sprite_index = spr_roboGhostJump;
 
 ////////horizontal collision using hsp in the collision check helps prevent the dash from clipping through obj_block
 
@@ -83,9 +81,7 @@ y += vsp;
 
 
 
-///dash cooldown is here because otherwise theres an exploit to keep slashing and dashing forward infinitely
 
-///dashcooldown += -1;
 
 
 //jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)
