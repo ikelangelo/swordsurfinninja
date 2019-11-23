@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "33e4ee86-3dc8-4c4c-9fb3-02e6014cd06e",
+            "Value": {
+                "id": "c7babffe-1f73-40ca-9565-586971fe0799",
+                "resourcePath": "sprites\\spr_roboGhostComboHB\\spr_roboGhostComboHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3687b263-3551-4fc7-b261-cd09e4585d52",
             "Value": {
                 "id": "ca7110b0-9d96-4b34-8596-27627c124f5f",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "6ae45aa3-06a0-4210-8b64-496b6fd221a2",
+            "Value": {
+                "id": "24a4f161-25da-4c0b-a3dc-bab49379b3fe",
+                "resourcePath": "scripts\\ProcessAttack\\ProcessAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6c722366-700d-44ba-9923-78bcba74f753",
             "Value": {
                 "id": "952b583a-c568-445d-8561-56afeed7842f",
@@ -311,14 +327,6 @@
             }
         },
         {
-            "Key": "9b9cb575-daad-4a5a-aa5a-c3129c18395e",
-            "Value": {
-                "id": "fbb41c82-bb94-42f0-ab28-1a75bbcd9aa1",
-                "resourcePath": "sprites\\spr_bosshitbox\\spr_bosshitbox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9d2895df-efe5-4c32-9f2d-e502859f5a38",
             "Value": {
                 "id": "b9139409-4bce-4c02-a7a3-712aa37d788c",
@@ -348,6 +356,22 @@
                 "id": "9f9a9290-632f-4d64-b4d7-4345ced07396",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bfddf7c1-a3b8-4d5f-8984-91734261edc4",
+            "Value": {
+                "id": "ec553b0c-95f7-46c0-8701-0dbe7c4e9466",
+                "resourcePath": "scripts\\PlayerState_Attack_Combo\\PlayerState_Attack_Combo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c0d4413f-d8d8-423e-a4b8-b3085c90ff51",
+            "Value": {
+                "id": "d88938df-4a23-499d-bf9d-e45515374455",
+                "resourcePath": "sprites\\spr_roboGhostCombo\\spr_roboGhostCombo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -533,7 +557,9 @@
         "d5eb7365-8210-44a7-83d0-8236f0b09e07",
         "62898a05-463e-4679-86b3-2c74473c9030",
         "4f356d06-e581-469c-847d-8a25d9c0cbd1",
-        "37718108-7de6-40c4-a33e-6cd00b808188"
+        "bfddf7c1-a3b8-4d5f-8984-91734261edc4",
+        "37718108-7de6-40c4-a33e-6cd00b808188",
+        "6ae45aa3-06a0-4210-8b64-496b6fd221a2"
     ],
     "tutorial": ""
 }
