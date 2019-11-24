@@ -1,6 +1,6 @@
-move = 6;
+move = 12;
 
-hp = 3;
+hp = 10;
 
 knockback = 0;
 

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0f93596f-ebff-4192-8f9a-ceb6c68d40f4",
+            "Value": {
+                "id": "359106b8-8693-4438-b085-fe13eeaeb0b4",
+                "resourcePath": "sprites\\spr_roboGhostFinisher\\spr_roboGhostFinisher.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "161e3a06-a543-461b-bc40-d9945971cf7d",
             "Value": {
                 "id": "c407dc82-5818-4259-be30-1c1b3cfd45c7",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "54832839-700a-48cc-b217-cd9f8c106124",
+            "Value": {
+                "id": "3dd6c5c1-e087-4ab2-ae7f-2a4957139937",
+                "resourcePath": "sprites\\spr_roboGhostFinisherHB\\spr_roboGhostFinisherHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5800872b-ab9e-43f3-8dc1-39c799e1136d",
             "Value": {
                 "id": "1456a1db-ec8b-4c2e-8fbe-d52b3bd0f7e0",
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "81369938-0811-4573-bd94-cbe0baee1d34",
+            "Value": {
+                "id": "c196b71e-d413-47ea-a2b7-c602a4e70497",
+                "resourcePath": "scripts\\PlayerState_Attack_Finisher\\PlayerState_Attack_Finisher.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8237c2e6-9975-44e2-81e1-fd3350985ddb",
             "Value": {
                 "id": "3666ddf9-773b-4127-a709-fd5140939ab5",
@@ -324,6 +348,14 @@
                 "id": "fe819ce8-357e-44a9-8e8b-569f508eb265",
                 "resourcePath": "scripts\\PlayerState_SwordSurf\\PlayerState_SwordSurf.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9baded28-bec5-4dfc-9cee-2a61519ed6db",
+            "Value": {
+                "id": "2e14ad29-cf17-488e-b32a-41b004cd9321",
+                "resourcePath": "views\\9baded28-bec5-4dfc-9cee-2a61519ed6db.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -558,6 +590,7 @@
         "62898a05-463e-4679-86b3-2c74473c9030",
         "4f356d06-e581-469c-847d-8a25d9c0cbd1",
         "bfddf7c1-a3b8-4d5f-8984-91734261edc4",
+        "81369938-0811-4573-bd94-cbe0baee1d34",
         "37718108-7de6-40c4-a33e-6cd00b808188",
         "6ae45aa3-06a0-4210-8b64-496b6fd221a2"
     ],

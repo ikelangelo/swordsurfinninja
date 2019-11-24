@@ -26,6 +26,9 @@ switch(state)
 	case PLAYERSTATE.ATTACK_COMBO: PlayerState_Attack_Combo();
 	break;
 	
+	case PLAYERSTATE.ATTACK_FINISHER: PlayerState_Attack_Finisher();
+	break;
+	
 	case PLAYERSTATE.SWORD_SURF: PlayerState_SwordSurf();
 	break;
 
