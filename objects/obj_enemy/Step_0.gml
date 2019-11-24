@@ -11,8 +11,8 @@ if hp <= 0
 	instance_create_layer(x, y, "explosions", obj_life);*/
 	instance_destroy();
 }
-if move > 6 
-move = 6;
+if move > 12 
+move = 12;
 
 
 switch(state)

@@ -130,7 +130,7 @@
             "Key": "328c29c5-bfd3-4074-8f39-7e411bcf1675",
             "Value": {
                 "id": "83b0aba0-3f28-4bb2-a506-9d3783e33a20",
-                "resourcePath": "objects\\obj_target\\obj_target.yy",
+                "resourcePath": "objects\\obj_cursor\\obj_cursor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -219,6 +219,14 @@
             "Value": {
                 "id": "1456a1db-ec8b-4c2e-8fbe-d52b3bd0f7e0",
                 "resourcePath": "sprites\\spr_enemy_bullet\\spr_enemy_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b81317c-f5e1-41c2-89f2-b4a75f49b832",
+            "Value": {
+                "id": "10f6714e-ff68-42bf-88ac-aff762222deb",
+                "resourcePath": "sprites\\spr_roboGhostSwordSurf\\spr_roboGhostSwordSurf.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -387,6 +395,14 @@
             "Value": {
                 "id": "9f9a9290-632f-4d64-b4d7-4345ced07396",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b7f21ea6-b7c6-4059-a038-b187904fbaba",
+            "Value": {
+                "id": "605418ac-bc8e-47ef-bcfa-159015fd5a1f",
+                "resourcePath": "objects\\obj_target\\obj_target.yy",
                 "resourceType": "GMObject"
             }
         },
