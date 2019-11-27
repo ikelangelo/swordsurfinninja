@@ -13,7 +13,7 @@ duck = keyboard_check(ord("S"));
 
 key_attack = mouse_check_button_pressed(mb_left);
 
-sword_surf = mouse_check_button_pressed(mb_right);
+sword_surf = mouse_check_button(mb_right);
 
 switch(state)
 {
