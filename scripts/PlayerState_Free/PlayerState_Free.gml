@@ -102,7 +102,7 @@ AIR_JUMP = 3;
 
 if (key_attack) state = PLAYERSTATE.ATTACK_SLASH;
 
-if ((sword_surf) && (sword_surf_ready > 0)) 
+if ((sword_surf) && (sword_surf_ready > 0) && !(instance_exists(obj_target)) && !(place_meeting(mouse_x, mouse_y, obj_block))) 
 {
 	state = PLAYERSTATE.SWORD_SURF;
 }
