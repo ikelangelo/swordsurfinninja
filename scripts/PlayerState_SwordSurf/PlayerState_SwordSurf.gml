@@ -1,4 +1,4 @@
-if !instance_exists(obj_target) && !place_meeting(mouse_x, mouse_y, obj_block)
+if (!instance_exists(obj_target)) && (!place_meeting(mouse_x, mouse_y, obj_block)) 
 {
 	instance_create_layer(mouse_x, mouse_y, "Instances", obj_target);
 	path = path_add();
