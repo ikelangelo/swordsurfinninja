@@ -3,7 +3,6 @@ hsp = 0;
 vsp = 0; 
 grv = 1.8;
 walksp = 24;
-dashcooldown = 0;
 accel = 1;
 decel =  1;
 
@@ -12,6 +11,7 @@ decel =  1;
 MAX_VSP = 35; 
 jumpSpeed = 40;
 AIR_JUMP = 3;
+sword_surf_ready = true;
 
 
 state = PLAYERSTATE.FREE;

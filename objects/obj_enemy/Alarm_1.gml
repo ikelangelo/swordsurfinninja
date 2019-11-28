@@ -1,1 +1,0 @@
-state = ENEMYSTATE.IDLE;
