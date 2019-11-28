@@ -6,9 +6,9 @@ event_inherited();
 
 if hp <= 0 
 {
-	repeat(10)
+	repeat(4)
 	{
-		instance_create_layer(x+irandom_range(-300, 300), y+irandom_range(-300, 300), "Effects", obj_explosion)
+		instance_create_layer(x+irandom_range(-240, 240), y+irandom_range(-240, 240), "Effects", obj_explosion)
 	}
 	//instance_create_layer(x, y, "explosions", obj_life);
 	instance_destroy();
