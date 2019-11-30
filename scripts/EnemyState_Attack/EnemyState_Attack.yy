@@ -1,5 +1,5 @@
 {
-    "id": "d060dad5-42f8-485d-b5a7-4cd243bf92d7",
+    "id": "e96985d0-22bf-4c68-9e2b-6451722086c6",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "EnemyState_Attack",

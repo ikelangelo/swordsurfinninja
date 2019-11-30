@@ -7,8 +7,9 @@ if collision_line(x, y, obj_roboGhost.x, obj_roboGhost.y, obj_block, false, fals
 	state = ENEMYSTATE.IDLE
 }
 
-if collision_circle(x, y, 1.25*sprite_width, obj_roboGhost, false, true) != noone
+blast_cooldown -= 1;
+if blast_cooldown <= 0
 {
-	state = ENEMYSTATE.ATTACK
-
+	blast_cooldown = original_blast_cooldown;
+	state = ENEMYSTATE.ATTACK;
 }

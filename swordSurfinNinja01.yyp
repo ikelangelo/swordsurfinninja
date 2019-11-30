@@ -479,14 +479,6 @@
             }
         },
         {
-            "Key": "d060dad5-42f8-485d-b5a7-4cd243bf92d7",
-            "Value": {
-                "id": "222c51cd-5986-4a24-bcc2-bff1b9b654c0",
-                "resourcePath": "scripts\\EnemyState_Attack\\EnemyState_Attack.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d15858af-9375-4e02-b6d5-6f34554f63dd",
             "Value": {
                 "id": "74a8bf7c-cceb-4468-b0c0-4c3c989e5cba",
@@ -540,6 +532,14 @@
                 "id": "04e6f4de-bf19-4237-bddb-d34cd01f9273",
                 "resourcePath": "views\\e46a5b5f-7ef6-4ed0-bab4-a6a2f79881fd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e96985d0-22bf-4c68-9e2b-6451722086c6",
+            "Value": {
+                "id": "58fc5d8f-38ac-4b60-bd92-6e21a5fd996a",
+                "resourcePath": "scripts\\EnemyState_Attack\\EnemyState_Attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -605,6 +605,14 @@
                 "resourcePath": "views\\fc42b60a-44a2-4d27-a56e-360e21b53d3d.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ffda4064-9934-4136-9c90-1fc399a74772",
+            "Value": {
+                "id": "6d5adcad-54bc-455e-963a-0eab5fcea542",
+                "resourcePath": "sprites\\spr_watcher_drone_charge_atk\\spr_watcher_drone_charge_atk.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -614,7 +622,6 @@
         "d77774df-6542-4c2c-9c8d-c51d5cc06ae6",
         "5c0cdbcb-7cf4-420d-8e68-af93dd786005",
         "8e112979-728b-404e-91af-1fa4458dcf82",
-        "d060dad5-42f8-485d-b5a7-4cd243bf92d7",
         "f7bdda5b-078f-43e4-b169-4bcd26702b6f",
         "f136eb09-82ea-4110-aab2-663c42faacbd",
         "f11bb2f0-222f-41eb-b7c3-412fc4730e9c",
@@ -624,7 +631,8 @@
         "bfddf7c1-a3b8-4d5f-8984-91734261edc4",
         "81369938-0811-4573-bd94-cbe0baee1d34",
         "37718108-7de6-40c4-a33e-6cd00b808188",
-        "6ae45aa3-06a0-4210-8b64-496b6fd221a2"
+        "6ae45aa3-06a0-4210-8b64-496b6fd221a2",
+        "e96985d0-22bf-4c68-9e2b-6451722086c6"
     ],
     "tutorial": ""
 }

@@ -10,14 +10,17 @@ hp = 10;
 
 knockback = 0;
 
+blast_cooldown = 120;
+
+original_blast_cooldown = 120;
 
 state = ENEMYSTATE.IDLE;
 
 enum ENEMYSTATE
 {
 FREE,
-ATTACK,
 HIT,
+ATTACK,
 IDLE
 
 
