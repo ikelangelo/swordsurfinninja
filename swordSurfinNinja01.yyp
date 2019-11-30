@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1a3509c7-55d6-4447-8d08-020694182988",
+            "Value": {
+                "id": "f98143c0-4a53-4075-b1bd-1e7d39fa8b96",
+                "resourcePath": "scripts\\RocketState_Free\\RocketState_Free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2060769e-e0a7-45cc-b05e-4286940ce733",
             "Value": {
                 "id": "d2ba956f-20a1-44cb-a36d-b01ecd7acedd",
@@ -140,6 +148,14 @@
                 "id": "c7babffe-1f73-40ca-9565-586971fe0799",
                 "resourcePath": "sprites\\spr_roboGhostComboHB\\spr_roboGhostComboHB.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "351f1d83-3ca6-42cb-bdd6-ee06d109d1d3",
+            "Value": {
+                "id": "4b4aedb5-9bab-42ad-bb72-f32e14f2509d",
+                "resourcePath": "scripts\\RocketState_Hit\\RocketState_Hit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "6478053f-effa-498c-aaea-dd84640520de",
+            "Value": {
+                "id": "cea62e0a-8738-434f-b64d-2c48502b5826",
+                "resourcePath": "sprites\\spr_rocket_drone\\spr_rocket_drone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65cb359f-e8df-474e-a442-e2904708c752",
             "Value": {
                 "id": "f7025e18-0edb-4124-a5a4-c762e7c952d4",
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "714be356-230f-4455-a742-9b51fd5f3689",
+            "Value": {
+                "id": "5a2ca228-2f0b-4893-a724-78b12012e074",
+                "resourcePath": "scripts\\RocketState_Angry\\RocketState_Angry.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75333cc9-6b59-4725-a279-58899e4b07a2",
             "Value": {
                 "id": "cb7de422-e54b-4e4e-9127-3d416c5c1739",
@@ -291,6 +323,22 @@
             "Value": {
                 "id": "49c3a5e0-4322-4e1c-9858-6b6ec6f2f874",
                 "resourcePath": "objects\\obj_watcher_drone\\obj_watcher_drone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7ac07212-71fe-4fb0-9567-e464f2db609e",
+            "Value": {
+                "id": "394e8061-49fc-489f-9d7a-c4d262cbb7d5",
+                "resourcePath": "sprites\\spr_rocket\\spr_rocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7c7a9f8c-0036-4c0c-9416-3354ce3dec5a",
+            "Value": {
+                "id": "a88b6789-08b1-4bcd-8a0c-a8e0dfc0fb61",
+                "resourcePath": "objects\\obj_rocket\\obj_rocket.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -519,11 +567,27 @@
             }
         },
         {
+            "Key": "da74615e-da5f-41e6-9edb-2ed6be507c34",
+            "Value": {
+                "id": "df9e12de-783a-4e52-a0b4-34622da1481a",
+                "resourcePath": "views\\da74615e-da5f-41e6-9edb-2ed6be507c34.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e12b606a-bb8c-4293-9aa4-e9d6d8912177",
             "Value": {
                 "id": "3da628ea-fcc2-4ca8-b315-d0434303f147",
                 "resourcePath": "sprites\\spr_fade\\spr_fade.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e16db4d5-e363-4a50-963a-4a546c888cf5",
+            "Value": {
+                "id": "cda3002e-08bb-4d0f-aedf-026094ee484f",
+                "resourcePath": "objects\\obj_rocket_drone\\obj_rocket_drone.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -540,6 +604,22 @@
                 "id": "58fc5d8f-38ac-4b60-bd92-6e21a5fd996a",
                 "resourcePath": "scripts\\EnemyState_Attack\\EnemyState_Attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ec0d66a5-4030-4c88-86fb-97d4019e4312",
+            "Value": {
+                "id": "cf5a60a8-7662-4d80-a601-d52ffdc83dc3",
+                "resourcePath": "views\\ec0d66a5-4030-4c88-86fb-97d4019e4312.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee378442-b60d-43aa-b9b0-42b2de9d2139",
+            "Value": {
+                "id": "0990cc25-717f-46f1-b7e3-931474111bdd",
+                "resourcePath": "views\\ee378442-b60d-43aa-b9b0-42b2de9d2139.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -616,23 +696,26 @@
         }
     ],
     "script_order": [
-        "941c23ee-0ee7-49eb-99f8-f98802a6d817",
         "ac55b7ea-deb2-493f-933a-395356c7481d",
         "2174ac1d-08a1-4a83-8300-80f87845330d",
         "d77774df-6542-4c2c-9c8d-c51d5cc06ae6",
         "5c0cdbcb-7cf4-420d-8e68-af93dd786005",
         "8e112979-728b-404e-91af-1fa4458dcf82",
-        "f7bdda5b-078f-43e4-b169-4bcd26702b6f",
-        "f136eb09-82ea-4110-aab2-663c42faacbd",
-        "f11bb2f0-222f-41eb-b7c3-412fc4730e9c",
-        "d5eb7365-8210-44a7-83d0-8236f0b09e07",
-        "e96985d0-22bf-4c68-9e2b-6451722086c6",
-        "62898a05-463e-4679-86b3-2c74473c9030",
         "4f356d06-e581-469c-847d-8a25d9c0cbd1",
         "bfddf7c1-a3b8-4d5f-8984-91734261edc4",
         "81369938-0811-4573-bd94-cbe0baee1d34",
         "37718108-7de6-40c4-a33e-6cd00b808188",
-        "6ae45aa3-06a0-4210-8b64-496b6fd221a2"
+        "6ae45aa3-06a0-4210-8b64-496b6fd221a2",
+        "941c23ee-0ee7-49eb-99f8-f98802a6d817",
+        "62898a05-463e-4679-86b3-2c74473c9030",
+        "f7bdda5b-078f-43e4-b169-4bcd26702b6f",
+        "e96985d0-22bf-4c68-9e2b-6451722086c6",
+        "d5eb7365-8210-44a7-83d0-8236f0b09e07",
+        "f11bb2f0-222f-41eb-b7c3-412fc4730e9c",
+        "f136eb09-82ea-4110-aab2-663c42faacbd",
+        "351f1d83-3ca6-42cb-bdd6-ee06d109d1d3",
+        "1a3509c7-55d6-4447-8d08-020694182988",
+        "714be356-230f-4455-a742-9b51fd5f3689"
     ],
     "tutorial": ""
 }

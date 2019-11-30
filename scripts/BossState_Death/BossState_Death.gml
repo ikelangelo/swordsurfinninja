@@ -2,7 +2,7 @@
 enemyCooldown += 2;
 bulletCooldown +=2
 
-y += 5;
+y += 20;
 
 	repeat(50)
 	{
