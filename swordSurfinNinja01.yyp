@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "13c69ea2-8db4-497b-bb77-5217472779f7",
+            "Value": {
+                "id": "453b17d5-150b-4819-a2fb-ed6f4bf63163",
+                "resourcePath": "sprites\\SPR_UGH\\SPR_UGH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "161e3a06-a543-461b-bc40-d9945971cf7d",
             "Value": {
                 "id": "c407dc82-5818-4259-be30-1c1b3cfd45c7",
@@ -156,6 +164,14 @@
                 "id": "294de875-0f57-4a86-87f3-c13c19ebd363",
                 "resourcePath": "views\\220cc7f9-d423-48f5-bef3-c23387e61a7b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d7cf840-a9a8-4c1b-9f00-1a1b348f1fd5",
+            "Value": {
+                "id": "218e51f0-1f5b-4ed9-8ffa-42d7e948fbc7",
+                "resourcePath": "sprites\\spr_tutorial_background\\spr_tutorial_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "49c3a5e0-4322-4e1c-9858-6b6ec6f2f874",
                 "resourcePath": "objects\\obj_watcher_drone\\obj_watcher_drone.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "788da7d6-0ec3-4837-aa3a-cfa5752bec0f",
+            "Value": {
+                "id": "d2e35162-4f2c-4f23-8f66-722d1d8cb5c7",
+                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
