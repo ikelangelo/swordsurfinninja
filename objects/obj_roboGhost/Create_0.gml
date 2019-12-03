@@ -14,9 +14,13 @@ AIR_JUMP = 3;
 sword_surf_ready = true;
 
 
+///misc state things
 state = PLAYERSTATE.FREE;
-
 hitByAttack = ds_list_create();
+canGetHurt = true;
+
+///hp and such
+hp = 10;
 
 enum PLAYERSTATE
 {

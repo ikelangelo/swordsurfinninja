@@ -80,10 +80,6 @@ if (place_meeting(x, y+vsp, obj_block))
 y += vsp;
 
 
-
-
-
-
 //jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)
 
 if (jump) && (AIR_JUMP > 0)
@@ -98,11 +94,41 @@ if (place_meeting(x, y+vsp, obj_block))
 AIR_JUMP = 3;
 }
 
-///////
+///////move to sword surf state
 
 if (key_attack) state = PLAYERSTATE.ATTACK_SLASH;
 
 if ((sword_surf) && (sword_surf_ready = true) && !(instance_exists(obj_target)) && !(place_meeting(mouse_x, mouse_y, obj_block))) 
 {
 	state = PLAYERSTATE.SWORD_SURF;
+}
+
+
+
+
+
+if place_meeting(x, y, obj_enemy_attack) && canGetHurt 
+{
+	canGetHurt = false;
+	alarm[0] = 60;
+	hp--;
+	instance_destroy(obj_enemy_attack);
+}
+
+if place_meeting(x, y, obj_rocket) && canGetHurt 
+{
+	
+	canGetHurt = false;
+	alarm[0] = 60;
+	hp--;
+	instance_destroy(obj_enemy_attack);
+	
+	
+}
+
+//this statement was made separate so that the sprite index would work properly
+
+if canGetHurt == false
+{
+	sprite_index = spr_roboGhostHurt;
 }

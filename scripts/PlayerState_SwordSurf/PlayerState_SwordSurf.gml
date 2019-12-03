@@ -1,3 +1,5 @@
+canGetHurt = false;
+
 if !(instance_exists(obj_target)) && !(place_meeting(mouse_x, mouse_y, obj_block)) 
 
 	instance_create_layer(mouse_x, mouse_y, "Instances", obj_target);
@@ -19,5 +21,6 @@ if place_meeting(x, y, obj_target)
 	instance_destroy(obj_target);
 	path_delete(path);
 	sprite_index = spr_roboGhostIdle;
+	canGetHurt = true;
 	state = PLAYERSTATE.FREE;
 }

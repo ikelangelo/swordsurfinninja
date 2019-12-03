@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "ee462a4c-2d0b-4605-ae4f-eb10eb6a682f",
+            "Value": {
+                "id": "ffd990a7-bef0-49a7-afa1-efc8db79a1ae",
+                "resourcePath": "sprites\\spr_roboGhostHurt\\spr_roboGhostHurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef91ef45-f83c-4269-94fd-1e83af92b866",
             "Value": {
                 "id": "556dcd07-f2f0-4fdb-a2ea-909e0d55aad5",
