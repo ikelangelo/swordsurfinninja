@@ -7,5 +7,3 @@ if blast_cooldown <= 0
 	instance_create_layer(x, y, "Rockets", obj_rocket);
 }
 
-if hp <= 0
-instance_destroy();

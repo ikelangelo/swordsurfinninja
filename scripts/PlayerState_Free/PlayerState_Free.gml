@@ -111,8 +111,8 @@ if place_meeting(x, y, obj_enemy_attack) && canGetHurt
 {
 	canGetHurt = false;
 	alarm[0] = 60;
-	hp--;
-	instance_destroy(obj_enemy_attack);
+	obj_game.hp--;
+	instance_destroy(obj_enemy_attack.id);
 }
 
 if place_meeting(x, y, obj_rocket) && canGetHurt 
@@ -120,8 +120,9 @@ if place_meeting(x, y, obj_rocket) && canGetHurt
 	
 	canGetHurt = false;
 	alarm[0] = 60;
-	hp--;
-	instance_destroy(obj_enemy_attack);
+	obj_game.hp--;
+	instance_create_layer(x, y, "Effects", obj_explosion);
+	instance_destroy(obj_rocket.id);
 	
 	
 }
