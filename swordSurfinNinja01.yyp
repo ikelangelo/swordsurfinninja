@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "5c3a3010-d0d4-41a1-a9ea-24b19802ffc1",
+            "Value": {
+                "id": "5c2a2f65-5f2a-4af1-b939-ff4561e634a7",
+                "resourcePath": "sprites\\spr_health_chip\\spr_health_chip.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f23d3cc-b070-4d95-94e6-3b1f0eb6d7f2",
             "Value": {
                 "id": "9501c0b9-898f-42e6-902a-f0e36febc2dc",
@@ -399,11 +407,27 @@
             }
         },
         {
+            "Key": "84f33e15-b78a-4af3-bb81-5a76458d3981",
+            "Value": {
+                "id": "b4703158-c141-41d8-a012-1f022484a18d",
+                "resourcePath": "objects\\obj_chip\\obj_chip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89a85e79-1a89-4556-999b-16d221ca6ce7",
             "Value": {
                 "id": "27057905-2061-4a7f-a22f-ef9dc10e3096",
                 "resourcePath": "objects\\obj_title_start_button\\obj_title_start_button.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8bc67284-6053-443f-902d-6419cba66e04",
+            "Value": {
+                "id": "3396f98b-08de-437c-8fe1-865b48d7089c",
+                "resourcePath": "sprites\\spr_surf_chip\\spr_surf_chip.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -452,6 +476,14 @@
                 "id": "e8eb735b-1eb1-42ae-b113-42c0e4abfdc2",
                 "resourcePath": "objects\\obj_game\\obj_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9907c229-b1e1-4867-a712-473f41bbb8e8",
+            "Value": {
+                "id": "e743231c-c7eb-4cd3-83f5-e8063a9654fc",
+                "resourcePath": "sprites\\spr_chip\\spr_chip.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -735,6 +767,14 @@
             }
         },
         {
+            "Key": "f7a63c05-2ee0-494d-8c7f-a974ccffbe83",
+            "Value": {
+                "id": "e300490d-005f-409c-aec5-f18e7ffe7fb7",
+                "resourcePath": "sprites\\spr_health_chipdead\\spr_health_chipdead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7bdda5b-078f-43e4-b169-4bcd26702b6f",
             "Value": {
                 "id": "6d7de751-2acd-4a31-a8e6-d2901cb3bd2d",
@@ -764,6 +804,14 @@
                 "id": "9cd03ae6-7d6c-4184-8010-e577b02a2b1b",
                 "resourcePath": "views\\fc42b60a-44a2-4d27-a56e-360e21b53d3d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe66621d-d455-41e7-b44a-b787bdccf832",
+            "Value": {
+                "id": "ab2ed3dd-62d5-4529-a9d9-60953c041f0a",
+                "resourcePath": "sprites\\spr_extra_life\\spr_extra_life.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
