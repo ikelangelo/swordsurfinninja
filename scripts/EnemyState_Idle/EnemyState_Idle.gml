@@ -1,6 +1,5 @@
 
-//written to handle getting stuck in walls when cyberlynx pushes them with sword motion add
-//perhaps not the most elegant solution but still works mostly
+
 var pdir = point_direction(x, y, obj_roboGhost.x, obj_roboGhost.y);
 if place_meeting(x, y, obj_block) move_outside_solid(pdir, 16);
 

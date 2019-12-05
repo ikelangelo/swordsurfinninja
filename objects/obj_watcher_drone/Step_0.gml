@@ -4,11 +4,12 @@
 // Inherit the parent event
 event_inherited();
 
+
 if hp <= 0 
 {
 	repeat(4)
 	{
-		instance_create_layer(x+irandom_range(-240, 240), y+irandom_range(-240, 240), "Effects", obj_explosion)
+		instance_create_layer(x+irandom_range(-240, 240), y+irandom_range(-240, 240), "Effects", obj_explosion);
 	}
 	
 	repeat(irandom_range(4, 10))

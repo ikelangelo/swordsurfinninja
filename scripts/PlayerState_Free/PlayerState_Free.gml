@@ -117,14 +117,26 @@ if place_meeting(x, y, obj_enemy_attack) && canGetHurt
 
 if place_meeting(x, y, obj_rocket) && canGetHurt 
 {
-	
 	canGetHurt = false;
 	alarm[0] = 60;
 	obj_game.hp--;
 	instance_create_layer(x, y, "Effects", obj_explosion);
 	instance_destroy(obj_rocket.id);
-	
-	
+}
+
+if place_meeting(x, y , obj_zapper_tile) && canGetHurt
+{
+	obj_game.chips = 0;
+	canGetHurt = false;
+	alarm[0] = 60;
+}
+
+if place_meeting(x, y , obj_plasma_tile) && canGetHurt
+{
+	vsp -=80;
+	obj_game.hp-=2;
+	canGetHurt = false;
+	alarm[0] = 60;
 }
 
 //this statement was made separate so that the sprite index would work properly

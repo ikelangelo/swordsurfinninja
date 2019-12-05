@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "5f843c0f-9e82-4738-a584-e3c82d1d1453",
+            "Value": {
+                "id": "aa592cde-5a75-4d2b-a3b6-419f73b887ff",
+                "resourcePath": "sprites\\spr_plasma_tile\\spr_plasma_tile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5fdbe8e3-df28-46d8-9745-0afc47b12e0d",
             "Value": {
                 "id": "510f05c1-80b9-45fe-9a42-04f8b41a0881",
@@ -340,6 +348,14 @@
                 "id": "24a4f161-25da-4c0b-a3dc-bab49379b3fe",
                 "resourcePath": "scripts\\ProcessAttack\\ProcessAttack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c6b9dea-d43d-4c83-83ef-b55151bac7a4",
+            "Value": {
+                "id": "ca2d5740-d59d-4a23-ab73-7ce0b7c2caec",
+                "resourcePath": "sprites\\spr_zapper_tile\\spr_zapper_tile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -419,6 +435,14 @@
             "Value": {
                 "id": "b4703158-c141-41d8-a012-1f022484a18d",
                 "resourcePath": "objects\\obj_chip\\obj_chip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8866a8c0-0f21-4334-92a5-517667fbcca4",
+            "Value": {
+                "id": "a46d5571-4049-4c2d-88c1-c19431796a4b",
+                "resourcePath": "objects\\obj_lvl1_spawner\\obj_lvl1_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -687,6 +711,14 @@
             }
         },
         {
+            "Key": "e891b537-d7f3-4767-9409-bb93c9df0516",
+            "Value": {
+                "id": "e11c7508-f8b5-4ba1-9a74-eda28c38d1df",
+                "resourcePath": "objects\\obj_plasma_tile\\obj_plasma_tile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e96985d0-22bf-4c68-9e2b-6451722086c6",
             "Value": {
                 "id": "58fc5d8f-38ac-4b60-bd92-6e21a5fd996a",
@@ -803,6 +835,14 @@
             "Value": {
                 "id": "fb398dc9-48fd-46f2-821b-6647499fe3e0",
                 "resourcePath": "objects\\obj_enemy_attack\\obj_enemy_attack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fbb3b4cf-73ba-458a-88b1-dba1ba7ba957",
+            "Value": {
+                "id": "1f62a1c4-2ad8-4dcd-a045-1f0d27475e7e",
+                "resourcePath": "objects\\obj_zapper_tile\\obj_zapper_tile.yy",
                 "resourceType": "GMObject"
             }
         },
