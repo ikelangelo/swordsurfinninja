@@ -10,7 +10,12 @@ if hp <= 0
 	{
 		instance_create_layer(x+irandom_range(-240, 240), y+irandom_range(-240, 240), "Effects", obj_explosion)
 	}
-	//instance_create_layer(x, y, "explosions", obj_life);
+	
+	repeat(irandom_range(4, 10))
+	{
+		instance_create_layer(x, y, "Instances", obj_chip);
+	}
+	
 	instance_destroy();
 }
 
