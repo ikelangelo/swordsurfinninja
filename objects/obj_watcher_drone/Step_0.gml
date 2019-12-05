@@ -16,6 +16,12 @@ if hp <= 0
 		instance_create_layer(x, y, "Instances", obj_chip);
 	}
 	
+	var healthRNG = irandom_range(1, 100);
+		if healthRNG >= 80
+		{
+			instance_create_layer(x, y, "Instances", obj_health_chip)
+		}
+	
 	instance_destroy();
 }
 

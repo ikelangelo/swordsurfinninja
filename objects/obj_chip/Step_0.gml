@@ -42,18 +42,6 @@ y += Cvsp;
 
 
 
-//prevents collision into blocks
-if (place_meeting(x+Chsp, y, obj_block))
-{
-	Chsp = 0
-}
-
-if (place_meeting(x, y+Chsp, obj_block))
-{
-	Chsp = 0
-}
-
-
 if place_meeting(x, y, obj_roboGhost)
 {
 	obj_game.chips++;

@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "6f9cb42d-71f7-494c-8ce2-45a10232c786",
+            "Value": {
+                "id": "68f190cc-a026-4640-8f76-73991fb52e0c",
+                "resourcePath": "objects\\obj_health_chip\\obj_health_chip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "714be356-230f-4455-a742-9b51fd5f3689",
             "Value": {
                 "id": "5a2ca228-2f0b-4893-a724-78b12012e074",
