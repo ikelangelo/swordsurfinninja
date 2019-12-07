@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "4a9c7134-94b1-4c3f-a38d-f6ecb05be18e",
+            "Value": {
+                "id": "3a6f0845-5ce6-47e4-9973-1e1508f6b251",
+                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f356d06-e581-469c-847d-8a25d9c0cbd1",
             "Value": {
                 "id": "41dce9b7-2180-4955-975e-fbca810003ee",
@@ -655,11 +663,11 @@
             }
         },
         {
-            "Key": "99c24a30-b21c-4f47-9fde-64703b08eece",
+            "Key": "9aa710f4-6b10-49d5-8e57-7f3f2383c52a",
             "Value": {
-                "id": "92984fcb-ef72-40ec-bf73-6aa64d042192",
-                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
-                "resourceType": "GMSprite"
+                "id": "adb1099f-f52f-44bc-9869-693853503aa9",
+                "resourcePath": "objects\\obj_victory_controller\\obj_victory_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -692,6 +700,22 @@
                 "id": "77766fc4-b7b7-4267-83f6-792558df310a",
                 "resourcePath": "sounds\\snd_player_is_hit\\snd_player_is_hit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b3a863e4-152d-4756-b0c1-554ba5995bd9",
+            "Value": {
+                "id": "ab7a67fe-8f0b-4480-924d-ad4a1f300c1f",
+                "resourcePath": "sprites\\spr_game_over_background\\spr_game_over_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3fc3cae-b932-4d54-bd22-1f6708df7a6c",
+            "Value": {
+                "id": "9bd3c3fa-92c6-49ba-8e8d-666ce44d48e2",
+                "resourcePath": "sprites\\spr_victory_background\\spr_victory_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -740,6 +764,14 @@
                 "id": "d88938df-4a23-499d-bf9d-e45515374455",
                 "resourcePath": "sprites\\spr_roboGhostCombo\\spr_roboGhostCombo.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c1a70e63-a136-4b96-9474-66d5fb3021d3",
+            "Value": {
+                "id": "8edafe64-3eb6-4e27-b686-cc9e63b7545f",
+                "resourcePath": "objects\\obj_game_over_controller\\obj_game_over_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {

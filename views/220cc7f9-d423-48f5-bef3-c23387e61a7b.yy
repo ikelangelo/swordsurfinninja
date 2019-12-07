@@ -9,7 +9,9 @@
         "f0b416fa-78c9-429a-9af1-efadb7081f0f",
         "605eba84-0b06-49ed-80fc-994e2e0ceb35",
         "e6cb2ba0-e8bd-4a7a-a517-cb867903525f",
-        "2d7cf840-a9a8-4c1b-9f00-1a1b348f1fd5"
+        "2d7cf840-a9a8-4c1b-9f00-1a1b348f1fd5",
+        "b3a863e4-152d-4756-b0c1-554ba5995bd9",
+        "b3fc3cae-b932-4d54-bd22-1f6708df7a6c"
     ],
     "filterType": "GMSprite",
     "folderName": "title_tutorial_group",
