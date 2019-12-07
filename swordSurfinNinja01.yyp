@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "154f506c-daf3-4ab2-ae47-edd747fa8aa0",
+            "Value": {
+                "id": "4e240482-afc6-4d17-a483-44eea32cb22d",
+                "resourcePath": "sounds\\snd_bgm_title\\snd_bgm_title.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "161e3a06-a543-461b-bc40-d9945971cf7d",
             "Value": {
                 "id": "c407dc82-5818-4259-be30-1c1b3cfd45c7",
@@ -164,14 +172,6 @@
                 "id": "d2ba956f-20a1-44cb-a36d-b01ecd7acedd",
                 "resourcePath": "rooms\\rm_lvl1\\rm_lvl1.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "2174ac1d-08a1-4a83-8300-80f87845330d",
-            "Value": {
-                "id": "0249c8a2-f105-46fd-935a-c65750863d5b",
-                "resourcePath": "scripts\\BossState_Death\\BossState_Death.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "3bcee432-4aa8-4c0b-a053-3ef2f60b1dc2",
+            "Value": {
+                "id": "6d40676f-fbd5-4fa9-b20a-2f66306fadf9",
+                "resourcePath": "sounds\\snd_bgm_tutorial\\snd_bgm_tutorial.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3c87d14e-fdd9-4ac6-8fec-2791d1ec112f",
             "Value": {
                 "id": "30a08d40-de32-4083-a6d5-24f4dceba4f7",
@@ -260,6 +268,14 @@
                 "id": "df0fe7da-dffa-4713-9be8-e03f1a7694d4",
                 "resourcePath": "views\\3facc88f-ddbf-4e3e-8def-adb895b6530e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "421cf010-c9dc-4390-9412-26eb3d3e03bc",
+            "Value": {
+                "id": "8341a01e-bf4c-44dc-9c4a-972ca9f5c78c",
+                "resourcePath": "sounds\\snd_bgm_lvl2\\snd_bgm_lvl2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -607,6 +623,14 @@
             }
         },
         {
+            "Key": "99c24a30-b21c-4f47-9fde-64703b08eece",
+            "Value": {
+                "id": "92984fcb-ef72-40ec-bf73-6aa64d042192",
+                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9baded28-bec5-4dfc-9cee-2a61519ed6db",
             "Value": {
                 "id": "2e14ad29-cf17-488e-b32a-41b004cd9321",
@@ -636,14 +660,6 @@
                 "id": "77766fc4-b7b7-4267-83f6-792558df310a",
                 "resourcePath": "sounds\\snd_player_is_hit\\snd_player_is_hit.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "b54ab84c-e445-4864-bef6-90e7dbf3568c",
-            "Value": {
-                "id": "e95507f6-c630-42cd-9ce2-0b38f95178be",
-                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -743,6 +759,14 @@
             }
         },
         {
+            "Key": "d37a09dc-e646-476d-b481-1156948992cf",
+            "Value": {
+                "id": "9ea3c31c-9779-478c-9a01-5307f6a55b44",
+                "resourcePath": "sounds\\snd_bgm_game_over\\snd_bgm_game_over.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d5eb7365-8210-44a7-83d0-8236f0b09e07",
             "Value": {
                 "id": "ea80dacb-13ff-4b97-97ca-2eac2c884691",
@@ -764,6 +788,14 @@
                 "id": "df9e12de-783a-4e52-a0b4-34622da1481a",
                 "resourcePath": "views\\da74615e-da5f-41e6-9edb-2ed6be507c34.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "def1f364-5c93-473b-bdde-721955c07f79",
+            "Value": {
+                "id": "ec237442-1581-4b38-8d42-9e9c7da39608",
+                "resourcePath": "sounds\\snd_bgm_victory\\snd_bgm_victory.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -960,7 +992,6 @@
         }
     ],
     "script_order": [
-        "2174ac1d-08a1-4a83-8300-80f87845330d",
         "4f356d06-e581-469c-847d-8a25d9c0cbd1",
         "bfddf7c1-a3b8-4d5f-8984-91734261edc4",
         "81369938-0811-4573-bd94-cbe0baee1d34",

@@ -1,6 +1,16 @@
-if !audio_is_playing(snd_bgm_lvl1)
-audio_play_sound(snd_bgm_lvl1, 25, 0);
+if room_get_name(rm_tutorial)
+{
+	if !audio_is_playing(snd_bgm_lvl1)
+	audio_play_sound(snd_bgm_lvl1, 25, 0);
+}
 
+
+
+if room_get_name(rm_lvl1)
+{
+	if !audio_is_playing(snd_bgm_lvl1)
+	audio_play_sound(snd_bgm_lvl1, 25, 0);
+}
 
 
 
