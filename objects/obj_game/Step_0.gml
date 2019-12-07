@@ -1,4 +1,5 @@
-
+if !audio_is_playing(snd_bgm_lvl1)
+audio_play_sound(snd_bgm_lvl1, 25, 0);
 
 
 
@@ -11,6 +12,7 @@ if time <= 0
 	if room_speed <= 5
 	{
 		room_speed = 60;
+		audio_stop_all();
 		room_goto_next();
 	}
 

@@ -38,7 +38,10 @@ y += Cvsp;
 
 
 
-
+if place_meeting(x, y, obj_zapper_tile) || place_meeting(x, y, obj_plasma_tile)
+{
+	instance_destroy();
+}
 
 
 

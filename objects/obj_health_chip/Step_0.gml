@@ -5,6 +5,11 @@ if place_meeting(x, y, obj_roboGhost)
 	instance_destroy();
 }
 
+if place_meeting(x, y, obj_zapper_tile) || place_meeting(x, y, obj_plasma_tile)
+{
+	instance_destroy();
+}
+
 HCvsp += grav;
 
 //////horiz collision
