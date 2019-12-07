@@ -1,7 +1,11 @@
-if room_get_name(rm_tutorial)
+
+/////change this to an audio object in the room because fuck this noise
+
+
+room_get_name(rm_tutorial)
 {
-	if !audio_is_playing(snd_bgm_lvl1)
-	audio_play_sound(snd_bgm_lvl1, 25, 0);
+	if !audio_is_playing(snd_bgm_tutorial)
+	audio_play_sound(snd_bgm_tutorial, 25, 0);
 }
 
 
