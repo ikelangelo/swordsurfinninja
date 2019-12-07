@@ -3,10 +3,20 @@
 
 
 
-//time variablw countdown and room change
+//time variable countdown and room change and slowdown at end of level
 time--;
 if time <= 0 
-room_goto_next();
+{
+	room_speed -=1
+	if room_speed <= 5
+	{
+		room_goto_next();
+	}
+
+}
+
+
+
 
 //limiting health max
 if hp > MaxHp 
