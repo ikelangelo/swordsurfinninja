@@ -1,5 +1,9 @@
 canGetHurt = false;
 
+//play sound at image index
+if !audio_is_playing(snd_sword_surf)
+audio_play_sound(snd_sword_surf, 10, 1);
+
 if !(instance_exists(obj_target)) && !(place_meeting(mouse_x, mouse_y, obj_block)) 
 
 	instance_create_layer(mouse_x, mouse_y, "Instances", obj_target);
@@ -17,6 +21,7 @@ if !(instance_exists(obj_target)) && !(place_meeting(mouse_x, mouse_y, obj_block
 
 if place_meeting(x, y, obj_target)
 {
+	audio_stop_sound(snd_sword_surf);
 	sword_surf_ready = false;
 	instance_destroy(obj_target);
 	path_delete(path);

@@ -1,5 +1,6 @@
 if place_meeting(x, y, obj_roboGhost)
 {
+	audio_play_sound(snd_chip_health_collect, 5, 0);
 	obj_game.hp++;
 	instance_destroy();
 }

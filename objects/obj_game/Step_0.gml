@@ -10,6 +10,7 @@ if time <= 0
 	room_speed -=1
 	if room_speed <= 5
 	{
+		room_speed = 60;
 		room_goto_next();
 	}
 
@@ -28,6 +29,7 @@ if (chips >= 30)
 {
 	if obj_roboGhost.sword_surf_ready == false
 	{
+		audio_play_sound(snd_sword_surf_ready, 5, 0);
 		obj_roboGhost.sword_surf_ready = true;
 		chips-=30;
 	}
@@ -36,6 +38,7 @@ if (chips >= 30)
 ///upon death do this, reset to initial room position, all chips gone, lose life
 if hp <= 0
 {
+	audio_play_sound(snd_player_is_dead, 15, 0);
 	hp = MaxHp;
 	robolives -=1;
 	obj_roboGhost.x = obj_roboGhost.xstart;

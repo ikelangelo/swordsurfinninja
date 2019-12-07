@@ -17,7 +17,8 @@ if (place_meeting(x+knockback, y, obj_block))
 
 
 sprite_index = spr_watcher_shocked;
-
+if image_index = 5
+audio_play_sound(snd_enemy_is_hit, 9, 0);
 if knockback = 0 
 {
 	sprite_index = spr_watcher_drone;

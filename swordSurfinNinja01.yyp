@@ -330,7 +330,7 @@
             "Key": "5c770dbc-e180-4485-a358-85a2174657b3",
             "Value": {
                 "id": "3b50bc54-911b-4656-879e-54706d47736e",
-                "resourcePath": "sounds\\snd_enemy_is_dead1\\snd_enemy_is_dead1.yy",
+                "resourcePath": "sounds\\snd_explosion\\snd_explosion.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -450,7 +450,7 @@
             "Key": "76b3d098-4f8e-4732-ad32-5239d082c92e",
             "Value": {
                 "id": "82781525-2776-4fc6-aa7e-8d238a4670d0",
-                "resourcePath": "sounds\\snd_enemy_is_dead3\\snd_enemy_is_dead3.yy",
+                "resourcePath": "sounds\\snd_player_is_dead\\snd_player_is_dead.yy",
                 "resourceType": "GMSound"
             }
         },

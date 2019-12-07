@@ -143,5 +143,8 @@ if place_meeting(x, y , obj_plasma_tile) && canGetHurt
 
 if canGetHurt == false
 {
+	if !audio_is_playing(snd_player_is_hit)
+	audio_play_sound(snd_player_is_hit, 20, 0);
+	
 	sprite_index = spr_roboGhostHurt;
 }
