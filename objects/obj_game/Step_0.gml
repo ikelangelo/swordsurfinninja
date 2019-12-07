@@ -1,26 +1,18 @@
 
-/////change this to an audio object in the room because fuck this noise
-
-
-room_get_name(rm_tutorial)
-{
-	if !audio_is_playing(snd_bgm_tutorial)
-	audio_play_sound(snd_bgm_tutorial, 25, 0);
-}
 
 
 
-if room_get_name(rm_lvl1)
-{
-	if !audio_is_playing(snd_bgm_lvl1)
-	audio_play_sound(snd_bgm_lvl1, 25, 0);
-}
+
+///kills fixer
+if kills <0
+kills = 0;
+
 
 
 
 //time variable countdown and room change and slowdown at end of level
 time--;
-if time <= 0 
+if time <= 0 && kills >= 30
 {
 	room_speed -=1
 	if room_speed <= 5
@@ -30,6 +22,11 @@ if time <= 0
 		room_goto_next();
 	}
 
+}
+else if time <= 0 && kills >= 30
+{
+	audio_stop_all();
+	room_goto(rm_game_over);
 }
 
 
@@ -61,6 +58,7 @@ if hp <= 0
 	obj_roboGhost.y = obj_roboGhost.ystart;
 	obj_roboGhost.sword_surf_ready = true;
 	chips = 0;
+	kills -= 15;
 }
 ///game over sequence
 if robolives < 1

@@ -22,7 +22,7 @@ if hp <= 0
 		{
 			instance_create_layer(x, y, "Instances", obj_health_chip)
 		}
-	
+	obj_game.kills +=1;
 	instance_destroy();
 }
 

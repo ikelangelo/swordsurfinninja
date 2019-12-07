@@ -13,6 +13,7 @@ if place_meeting(x, y, obj_cursor) && mouse_check_button_pressed(mb_left)
 
 if place_meeting(x, y, obj_cursor) && mouse_check_button_released(mb_left)
 {
+	audio_stop_all();
 	room_goto(rm_lvl1);
 		
 }

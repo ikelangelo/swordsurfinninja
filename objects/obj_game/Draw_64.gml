@@ -44,4 +44,6 @@ for (var i=0; i<hp; i++)
 {
 	draw_sprite(spr_health_chip, 0, (xStart*i)+xoffset, yStart)
 }
-//draw_text_transformed(2000, 600, string("cangethurt: ") + string(obj_roboGhost.canGetHurt), 6, 6, 0);
+
+draw_rectangle_color(54, 160, 380, 220, c_black,c_black,c_black,c_black,false);
+draw_text_transformed(64, 150, string("Kills: ") + string(kills), 4, 4, 0);
