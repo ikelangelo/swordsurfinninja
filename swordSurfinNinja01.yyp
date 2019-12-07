@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "db97bad2-4230-4d0d-b5a4-292b0cc61a43",
+            "Value": {
+                "id": "4e0c69c6-5997-4eb9-8930-4da11984dce2",
+                "resourcePath": "objects\\obj_secret\\obj_secret.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "def1f364-5c93-473b-bdde-721955c07f79",
             "Value": {
                 "id": "ec237442-1581-4b38-8d42-9e9c7da39608",
@@ -890,7 +898,7 @@
             "Key": "e12b606a-bb8c-4293-9aa4-e9d6d8912177",
             "Value": {
                 "id": "3da628ea-fcc2-4ca8-b315-d0434303f147",
-                "resourcePath": "sprites\\spr_fade\\spr_fade.yy",
+                "resourcePath": "sprites\\spr_secret\\spr_secret.yy",
                 "resourceType": "GMSprite"
             }
         },

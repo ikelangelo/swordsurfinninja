@@ -2,7 +2,7 @@
     "id": "e12b606a-bb8c-4293-9aa4-e9d6d8912177",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_fade",
+    "name": "spr_secret",
     "For3D": false,
     "HTile": false,
     "VTile": false,
