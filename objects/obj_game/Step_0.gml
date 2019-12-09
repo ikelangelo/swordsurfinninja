@@ -26,10 +26,14 @@ if time <= 0 && kills >= 30
 	}
 
 }
-else if time <= 0 && kills >= 30
+else if time <= 0 && kills < 30
 {
-	audio_stop_all();
-	room_goto(rm_game_over);
+	room_speed -=1
+	if room_speed <= 5
+	{
+		audio_stop_all();
+		room_goto(rm_game_over);
+	}
 }
 
 

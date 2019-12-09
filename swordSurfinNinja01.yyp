@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1386ec5b-3585-4ebb-aa3c-cd47a043a918",
+            "Value": {
+                "id": "1e144b90-89a8-406f-80ca-f7fd3764339f",
+                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13c69ea2-8db4-497b-bb77-5217472779f7",
             "Value": {
                 "id": "453b17d5-150b-4819-a2fb-ed6f4bf63163",
@@ -308,14 +316,6 @@
                 "id": "0c3ae53b-2f03-43d2-9082-0dae85c4f583",
                 "resourcePath": "sounds\\snd_sword_surf_ready\\snd_sword_surf_ready.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "4a9c7134-94b1-4c3f-a38d-f6ecb05be18e",
-            "Value": {
-                "id": "3a6f0845-5ce6-47e4-9973-1e1508f6b251",
-                "resourcePath": "sprites\\SPR_UGH1\\SPR_UGH1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
